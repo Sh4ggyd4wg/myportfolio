@@ -128,13 +128,13 @@ section{
 .aboutme a:hover{
   color:lightcoral
 }
-.project-detail img{
+#temperature img{
     width: 300px;
     height: auto;
     display: block;
 }
 
-.project-details a{
+#temperature a{
     display: block;
     margin-top: 10px;
     text-align: right;
