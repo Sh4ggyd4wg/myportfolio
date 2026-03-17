@@ -128,13 +128,13 @@ section{
 .aboutme a:hover{
   color:lightcoral
 }
-.project-img img{
+.project-detail img{
     width: 300px;
     height: auto;
     display: block;
 }
 
-.project-img a{
+.project-details a{
     display: block;
     margin-top: 10px;
     text-align: right;
