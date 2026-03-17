@@ -1,0 +1,130 @@
+body{
+  background-color: antiquewhite;
+  margin:0;
+  font-family: Arial, sans-serif;
+}
+
+header{
+  background-color: rgb(170, 107, 107);
+  padding-top: 40px;
+  text-align:center;
+}
+
+#nav{
+  display:flex;
+  justify-content: space-around;
+  background-color: rgb(98, 37, 37);
+  padding:10px;
+}
+
+#nav a{
+  color:whitesmoke;
+  text-decoration:none;
+}
+
+#nav a:hover{
+  background-color:aquamarine;
+  color:black;
+  font-size:large;
+  cursor:pointer;
+}
+
+section{
+  background-color: rgb(223, 210, 193);
+  margin-bottom:60px;
+  padding:30px;
+}
+#about a{
+  text-decoration: none;
+  color:black;
+}
+#about a:hover{
+  color:lightcoral
+}
+
+#home{
+  display:grid;
+  grid-template-columns:180px 1fr;
+  gap:20px;
+  align-items:center;
+}
+
+#home img{
+  width:150px;
+  border-radius:50%;
+}
+
+.project,
+.project:visited{
+  display:block;
+  background:white;
+  margin-bottom:15px;
+  padding:20px;
+  border-radius:10px;
+  box-shadow:0 0 5px rgba(0,0,0,0.1);
+  text-decoration:none;
+  color:black;
+}
+
+.project:hover{
+  border-radius:20px;
+  cursor:pointer;
+  color:lightcoral;
+  transform:translateY(-3px);
+}
+#contact  a{
+  text-decoration: none;
+  color:black;
+}
+#contact a:hover{
+  color:lightcoral
+}
+.project-detail{
+    max-width:700px;
+    margin:40px auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.project-detail h2{
+    margin-bottom:15px;
+    color:#333;
+}
+
+.project-detail p{
+    line-height:1.6;
+    margin-bottom:15px;
+}
+.project-detail a{
+  text-decoration: none;
+  color: black;
+}
+.project-detail a:hover{
+  color:lightcoral
+}
+.aboutme{
+  max-width:700px;
+    margin:40px auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+.aboutme h2{
+    margin-bottom:15px;
+    color:#333;
+}
+
+.aboutme p{
+    line-height:1.6;
+    margin-bottom:15px;
+}
+.aboutme a{
+  text-decoration: none;
+  color: black;
+}
+.aboutme a:hover{
+  color:lightcoral
+}
