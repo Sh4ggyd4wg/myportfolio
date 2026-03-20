@@ -2,7 +2,9 @@ body{
    margin:0;
   font-family: Arial, sans-serif;
   background-image: url("https://wallpapers.com/images/hd/aesthetic-minimalist-flower-pots-j793ekqt0iue1qs4.jpg");
-  opactiy: 0.5;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 header{
@@ -31,7 +33,7 @@ header{
 }
 
 section{
-  background-color: rgb(223, 210, 193);
+  background-color: rgba(223, 210, 193, 0.85);
   margin-bottom:60px;
   padding:30px;
 }
