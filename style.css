@@ -82,6 +82,14 @@ section{
 #contact a:hover{
   color:lightcoral
 }
+#contact i{
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+#contact a:hover i{
+  color: lightcoral;
+}
 .project-detail{
     max-width:700px;
     margin:40px auto;
