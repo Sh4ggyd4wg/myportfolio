@@ -73,7 +73,6 @@ section{
   margin-bottom:15px;
   padding:20px;
   border-radius:10px;
-  box-shadow:0 0 5px rgba(0,0,0,0.1);
   text-decoration:none;
   color:black;
 }
@@ -122,8 +121,11 @@ section{
   text-decoration: none;
   color: black;
 }
+.project-detail a:visited{
+  color: black;
+}
 .project-detail a:hover{
-  color:lightcoral
+  color: lightcoral !important;
 }
 .aboutme{
   max-width: 700px;
@@ -163,8 +165,8 @@ section{
     text-decoration: none;
     color: black;
 }
-#temperature a:hover{
-  color: lightcoral;
+#temperature a:visited{
+    color: black;
 }
 .container{
   max-width:900px;
