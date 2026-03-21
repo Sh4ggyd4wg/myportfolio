@@ -148,7 +148,7 @@ section{
   color: black;
 }
 .aboutme a:hover{
-  color:lightcoral
+  color:lightcoral;
 }
 #temperature img{
     width: 300px;
@@ -162,6 +162,9 @@ section{
     text-align: right;
     text-decoration: none;
     color: black;
+}
+#temperature a:hover{
+  color: lightcoral;
 }
 .container{
   max-width:900px;
